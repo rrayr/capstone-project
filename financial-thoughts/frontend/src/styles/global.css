@@ -2,14 +2,43 @@
 
 @media (max-width: 768px) {
 
-  body {
-    background: red;
-  }
-  
   .page {
     max-width: 100%;
     margin: 0;
     padding: 12px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .navbar a,
+  .navbar button {
+    width: 100%;
+    text-align: left;
+  }
+
+  .table,
+  .table thead,
+  .table tbody,
+  .table th,
+  .table td,
+  .table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .table tr {
+    margin-bottom: 12px;
+    border: 1px solid #333;
+    padding: 10px;
+  }
+
+  .table td {
+    text-align: right;
+    position: relative;
   }
 
   .card {
