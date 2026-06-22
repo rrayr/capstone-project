@@ -515,9 +515,20 @@ input[type="date"] {
 }
 
 @media (min-width: 1024px) {
-  .page {
-    transform: scale(1.2);
-    transform-origin: top center;
-    width: 83.33%; /* 100 / 1.2 to prevent overflow */
+  .navbar {
+    padding: 20px 40px;
+  }
+
+  .nav-links {
+    gap: 28px;
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
+    padding: 10px 0;
+  }
+
+  .nav-toggle {
+    font-size: 2rem;
   }
 }
