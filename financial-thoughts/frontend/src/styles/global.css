@@ -520,7 +520,6 @@ input[type="date"] {
     transform-origin: top center;
     width: 83.33%; /* 100 / 1.2 overflow prevention */
   }
-}
 
   .navbar {
     padding: 20px 40px;
