@@ -54,6 +54,7 @@ function RemindersForm({ onSubmit }) {
         onChange={handleChange}
       />
 
+      <label>Reminder Date</label>
       <input
         className="input"
         type="date"

@@ -95,6 +95,7 @@ function TransactionForm({
         onChange={handleChange}
       />
 
+      <label>Transaction Date</label>
       <input className="input"
         type="date"
         name="transactionDate"
