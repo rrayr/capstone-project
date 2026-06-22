@@ -1,5 +1,44 @@
 @import "./theme.css";
 
+@media (max-width: 768px) {
+
+  body {
+    background: red;
+  }
+  
+  .page {
+    max-width: 100%;
+    margin: 0;
+    padding: 12px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img, input, button {
+  max-width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -376,42 +415,4 @@ button {
   font-size: 0.8rem;
   margin-top: 1.5rem;
   margin-bottom: 0.3rem;
-}
-
-@media (max-width: 768px) {
-  .page {
-    padding: 12px;
-  }
-
-  .card {
-    width: 100%;
-  }
-
-  .input {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  .btn {
-    width: 100%;
-  }
-}
-
-.container {
-  display: flex;
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-}
-
-body {
-  margin: 0;
-  overflow-x: hidden;
-}
-
-img, input, button {
-  max-width: 100%;
 }
