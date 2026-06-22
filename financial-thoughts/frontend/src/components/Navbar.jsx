@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
 import "../styles/global.css";
 
 function NavBar() {
