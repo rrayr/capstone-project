@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import FinancialApi from "./api/FinancialApi";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 import AppRoutes from "./AppRoutes";
 import HomePage from "./pages/HomePage";
 import RegisterPage from "./pages/RegisterPage";
