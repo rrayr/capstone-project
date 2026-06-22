@@ -222,6 +222,8 @@ button {
 
   padding: 20px;
 
+  margin: 0;
+
   box-shadow: var(--shadow);
 
   animation: float 8s ease-in-out infinite;
@@ -341,6 +343,15 @@ button {
 
   color: rgb(200, 252, 255);
 
+}
+
+input[type="date"] {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: block;
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .dashboard-grid {
