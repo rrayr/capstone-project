@@ -44,13 +44,13 @@
     width: 100%;
   }
 
-  .nav a {
+  .navbar a {
     display: block;
     padding: 12px;
     border-bottom: 1px solid rgba(163, 255, 253, 0.79);
   }
 
-  .nav a:last-child {
+  .navbar a:last-child {
     border-bottom: none;
   }
 
