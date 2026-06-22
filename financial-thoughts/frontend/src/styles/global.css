@@ -377,3 +377,41 @@ button {
   margin-top: 1.5rem;
   margin-bottom: 0.3rem;
 }
+
+@media (max-width: 768px) {
+  .page {
+    padding: 12px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img, input, button {
+  max-width: 100%;
+}
