@@ -31,7 +31,7 @@ function NavBar({ token, setToken }) {
       <Link to="/budget">Budget</Link>
       <Link to="/reminders">Reminders</Link>
 
-      <button className="btn btn-secondary"
+      <button className="btn btn-logout"
         onClick={() => {
           setToken(null);
           localStorage.removeItem("token");
