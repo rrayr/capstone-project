@@ -8,16 +8,32 @@
     padding: 12px;
   }
 
+.nav-toggle {
+    display: block;
+    font-size: 24px;
+    background: none;
+    color: white;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
   }
 
-  .navbar a,
-  .navbar button {
+  .nav-links a {
+    padding: 10px 0;
     width: 100%;
-    text-align: left;
   }
 
   .table,
@@ -136,6 +152,22 @@ a {
 
   text-decoration: none;
 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-toggle {
+  display: none;
 }
 
 button {

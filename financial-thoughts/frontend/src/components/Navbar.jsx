@@ -1,7 +1,8 @@
 import { Link, useNavigate } from "react-router-dom";
-import "./NavBar.css";
+import "./global.css";
 
-function NavBar({ token, setToken }) {
+function NavBar() {
+  const [open, setOpen] = useState(false);
 
   const navigate = useNavigate();
 
@@ -11,35 +12,22 @@ function NavBar({ token, setToken }) {
     navigate("/login");
   }
 
-  return (
+return (
     <nav className="navbar">
+      <div className="nav-brand">Financial Thoughts</div>
 
-      <h2>Financial Thoughts</h2>
+      <button className="nav-toggle" onClick={() => setOpen(!open)}>
+        ☰
+      </button>
 
-      <div className="nav-links">
-
-        {token ? (
-          <>
-            <Link to="/">Home</Link>
-            <Link to="/transactions">Transactions</Link>
-            <Link to="/history">History</Link>
-            <Link to="/budget">Budget</Link>
-            <Link to="/simulator">Simulator</Link>
-            <Link to="/reminders">Reminders</Link>
-
-            <button onClick={logout} className="btn">
-              Logout
-            </button>
-          </>
-        ) : (
-          <>
-            <Link to="/login">Login</Link>
-            <Link to="/register">Register</Link>
-          </>
-        )}
-
+      <div className={`nav-links ${open ? "open" : ""}`}>
+        <Link to="/">Home</Link>
+        <Link to="/login">Login</Link>
+        <Link to="/register">Register</Link>
+        <Link to="/dashboard">Dashboard</Link>
+        <Link to="/transactions">Transactions</Link>
+        <Link to="/reminders">Reminders</Link>
       </div>
-
     </nav>
   );
 }
