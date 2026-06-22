@@ -58,7 +58,7 @@ function TransactionForm({
   }
 
   return (
-    <form onSubmit={handleSubmit} className="Card">
+    <form onSubmit={handleSubmit} className="card">
 
       <input className="input"
         type="number"
