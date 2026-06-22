@@ -1,0 +1,29 @@
+.summary-card {
+
+  min-width: 250px;
+
+  text-align: center;
+
+  transition: .2s;
+
+}
+
+.summary-card:hover {
+
+  transform: translateY(-3px);
+
+}
+
+.summary-card h3 {
+
+  color: var(--text-secondary);
+
+  margin-bottom: 16px;
+
+}
+
+.summary-card h2 {
+
+  font-size: 2rem;
+
+}
