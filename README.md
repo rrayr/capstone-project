@@ -62,8 +62,12 @@ npm install
 
 ### Create .env
 
+(Environment Variables)
+
 DATABASE_URL=your_database_url
+
 SECRET_KEY=your_secret_key
+
 PORT=3001
 
 ### Create PostgreSQL Database and run the provided Schema.sql (backend)
