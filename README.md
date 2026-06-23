@@ -30,17 +30,71 @@ Financial Thoughts is a full-stack web application that was designed for users t
 - React Router
 - CSS
 - Vite
-- Varcel (Deployment)
 
 ### Backend
 
+- npm
 - Node.js
 - Express
 - PostgreSQL
-- Render (Deployment)
 
 ### Other
 
 - JWT
 - bcrypt
 - Axios
+
+# Installation:
+
+### Clone Repository
+
+git clone https://github.com/rrayr/capstone-project
+cd capstone-project
+
+## Backend
+
+### Setup Backend
+
+cd backend
+npm install
+
+### Create .env
+
+DATABASE_URL=your_database_url
+SECRET_KEY=your_secret_key
+PORT=3001
+
+### Create PostgreSQL Database and run the provided Schema.sql (backend)
+
+### Start backend server 
+
+node server.js OR npm start
+
+## Frontend
+
+### Setup Frontend
+
+cd frontend
+
+### Install Dependencies
+
+npm install
+
+### Start dev server
+
+npm run dev
+
+# Future Patches
+
+Some features I would like to include in the future:
+
+- Graphs for spending patterns
+- Push and Email notifications
+- Smart savings goals
+- Recurring transactions
+- Transaction filtering
+- Export page info to DOCX or PDF
+
+## Author
+
+Ruben Rodriguez
