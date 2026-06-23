@@ -49,6 +49,7 @@ Financial Thoughts is a full-stack web application that was designed for users t
 ### Clone Repository
 
 git clone https://github.com/rrayr/capstone-project
+
 cd capstone-project
 
 ## Backend
@@ -56,6 +57,7 @@ cd capstone-project
 ### Setup Backend
 
 cd backend
+
 npm install
 
 ### Create .env
