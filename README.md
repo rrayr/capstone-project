@@ -76,7 +76,7 @@ Create PostgreSQL Database and run the provided Schema.sql (backend)
 
 ### Start backend server 
 
-node server.js OR npm start
+node server.js  OR  npm start
 
 ## Frontend
 
