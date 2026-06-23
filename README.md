@@ -70,7 +70,9 @@ SECRET_KEY=your_secret_key
 
 PORT=3001
 
-### Create PostgreSQL Database and run the provided Schema.sql (backend)
+### Create and Fill Database
+
+Create PostgreSQL Database and run the provided Schema.sql (backend)
 
 ### Start backend server 
 
